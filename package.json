@@ -1,0 +1,28 @@
+{
+  "name": "vive",
+  "version": "1.0.0",
+  "description": "편하게 듣자",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch index.html",
+    "serve": "parcel index.html",
+    "start": "electron .",
+    "build": "electron-packager . vive --overwrite --platform darwin"
+  },
+  "repository": {
+    "type": "git", 
+    "url": "https://oss.navercorp.com/chanyong-moon/vive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.6",
+    "electron-packager": "^13.1.1",
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
