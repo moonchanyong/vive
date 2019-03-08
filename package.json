@@ -11,7 +11,7 @@
     "build": "electron-packager . vive --overwrite --platform darwin"
   },
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "https://oss.navercorp.com/chanyong-moon/vive.git"
   },
   "keywords": [],
@@ -23,6 +23,7 @@
     "parcel-bundler": "^1.11.0"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "extract-zip": "^1.6.7"
   }
 }

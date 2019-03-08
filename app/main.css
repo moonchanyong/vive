@@ -1,0 +1,19 @@
+.viewport-Width-100 {
+  width: 100vw;
+}
+
+.viewport-height-100 {
+  height: 100vh;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.bg-color-black {
+  background-color: black;
+}
