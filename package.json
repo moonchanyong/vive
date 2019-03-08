@@ -1,8 +1,8 @@
 {
   "name": "vive",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "편하게 듣자",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "parcel watch index.html",
